@@ -9,6 +9,11 @@
    \immediate\expandafter\protected@write\csname efloat@post#1\endcsname{}}
 \makeatother
 
+\usepackage{csquotes}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{english}{american-apa}
+\addbibresource{biblio.bib}
+
 \usepackage{geometry}
 \geometry{letterpaper}
 \usepackage{graphicx}
@@ -22,10 +27,11 @@
 
 \begin{document}
     \maketitle
+    ``Bernie musi zostać zmielony na miazgę. Nie możemy zacząć wierzyć we własne głupie gadanie o zasadach.[...] Zgnieć go jak tylko potrafisz. Tak poza tym, mam nadzieję, że wszystko w porządku i gratulacje za Nevadę.'' Wyciek tego fragmentu korespondencji Johna Podesty -- szefa kampanii prezydenckiej Hillary Clinton -- wstrząsnął opinią publiczną nie tylko w Stanach Zjednoczonych, ale również na całym świecie. Ten skandaliczny fragment nie pozostawił złudzeń, pokazując o jaką stawkę toczy się polityczna gra, ale jednocześnie przypominając jak ogromna część tej gry jest ukryta przed opinią publiczną, i jak często nieczyste zagrania są zasłaniane uśmiechniętymi twarzami polityków. Ten fragment pozostawił niesmak, ale niewątpliwie wzbudził również nieufność oraz niepewność wśród elektoratu Clinton, w destrukcyjny sposób wpływając na jej wizerunek.\\
 
-    ``Bernie musi zostać zmielony na miazgę. Nie możemy zacząć wierzyć we własne głupie gadanie o zasadach.[...] Zgnieć go jak tylko potrafisz. Tak poza tym, mam nadzieję, że wszystko w porządku i gratulacje za Nevadę.'' Wyciek tego fragmentu korespondencji Johna Podesty -- szefa kampanii prezydenckiej Hillary Clinton -- wstrząsnął opinią publiczną nie tylko w Stanach Zjednoczonych, ale również na całym świecie.
+    Życie polityczne nieustannie dostarcza zdarzeń wzbudzających wysoki poziom nieufności, niepewności, bezsilności, poczucia braku sensu, oraz szeregu innych zagrożeń dla Ja. W czasach kryzysu i braku stabilności politycznej, ten zestaw różnych negatywnych stanów psychologicznych niezwykle często jest przyczyną powstawania i rozprzestrzeniania się naiwnych i upraszczających teorii. Te spiskowe teorie stanowią próbę wyjaśnienia przyczyn klęsk, katastrof i niepowodzeń, a jednocześnie wskazują winnych -- niewielkie grupy lub stowarzyszenia osób spotykających się potajemnie, i w tajemnicy knujących plany wprowadzenia chaosu w świecie społecznym. Przykład korespondencji Podesty pokazuje, że spiskowy obraz rzeczywistości bywa niekiedy niepokojąco zbliżony do realiów życia politycznego.\\
 
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    W niniejszym rozdziale pragniemy wskazać w jaki sposób rzeczywistość polityczna oraz orientacja spiskowa (tj. skłonność do postrzegania świata społecznego jako rządzonego przez spiski) są przez siebie wzajemnie kształtowane.
 
     \section{Natura myślenia spiskowego. Teorie spiskowe zdarzeń i grup społecznych}
 
@@ -36,6 +42,13 @@
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
     \section{Zagrożenie podmiotowej kontroli a generowanie teorii spiskowych}
+
+    Szereg dowodów wskazuje, że zagrożenie podmiotowej kontroli skutkuje zwiększoną skłonnością do wiary w przesądy oraz teorie spiskowe \parencite{whitson2008lacking}. Warto tutaj wskazać co najmniej dwa mechanizmy odpowiadające za tą zależność. Pierwszy z nich ma charakter motywacyjny, natomiast drugi wynika z poznawczych konsekwencji (deficytów) deprywacji kontroli.\\
+
+    Narastające doświadczenie utraty kontroli nad biegiem zdarzeń sprzyja uruchomieniu mechanizmu kompensacyjnego, polegającego na poszukiwaniu zewnętrznego źródła (społecznej lub duchowej) sprawczości. Jak wykazały badania \textcite{kay2008god} deprywacja kontroli skłania do poszukiwania w świecie zewnętrznych, zdolnych do przywrócenia porządku oraz kontroli nad biegiem zdarzeń. Pod wpływem zagrożenia utratą kontroli osoby zaczynają w większym stopniu pokładać zaufanie w rządzie lub w Bogu 
+
+ Aaron Kay and his colleagues found that deprivation of personal control makes people to identify external forces in the world that could restore control over the course of events. Loosing personal control resulted in perceiving government as legitimate (Kay et al., 2008, Shepard & Kay, 2009) and god as controlling force (Laurin, Kay, & Moscovitsch, 2008). Other findings suggest that control deprivation may turn our attention not only toward “benevolent” collective and spiritual agents (as results of Kay and colleagues seem to suggest), but also toward ``malevolent'' collective agents. Sullivan, Landau, and Rothshild  (2010) have proposed that, when confronted with multiple uncontrollable threatening events, people tend to generate an idea of personal or collective enemy, constructed as a single source of evil. This process helps people to regain control over the word: once a single source of evil is identified, people could be more likely to blame the enemy and initiate actions intended to its elimination. Thus, according to Sullivan’s at al. theorizing and findings, loss of control may contribute to generation of negative collective agents, i.e., groups conspiring against ``us''.
+
 
     Poczucie braku podmiotowej kontroli skłania do poszukiwania sił sprawujących kontrolę nad rzeczywistością.
 
@@ -49,10 +62,6 @@
     \subsection{Wolne wybory, niepewność i brak kontroli a teorie spiskowe}
 
 
-    \subsection{Alienacja polityczna a wiara w spiski}
-
-    W badaniu na próbie internautów (N=812) pytaliśmy o poczucie braku wpływu na politykę, o poczucie braku zrozumienia polityki, oraz o wiarę w stereotyp spiskowy Żydów.
-
 
     \subsection{Teoria spiskowa jako narzędzie mobilizacji i walki politycznej}
 
@@ -62,9 +71,14 @@
 
     Jak wykazali Soral i Grzesiak-Feldman (2015), spiskowe przekonania na temat spisku smoleńskiego mogą być charakterystyczne nie tylko dla osób o radykalnie prawicowych poglądach, ale raczej ogólnie dla osób na krańcach politycznego spektrum. Co więcej wskazali oni, że posiadanie wyrazistych poglądów politycznych, może skutkować chęcią dystansowania się od osób, które nie podzielają własnej ideologii.
 
+    \subsection{Alienacja polityczna a wiara w spiski}
+
+    W badaniu na próbie internautów (N=812) pytaliśmy o poczucie braku wpływu na politykę, o poczucie braku zrozumienia polityki, oraz o wiarę w stereotyp spiskowy Żydów.
+
 
     \section{Podsumowanie}
 
 
+\printbibliography
 
 \end{document}
