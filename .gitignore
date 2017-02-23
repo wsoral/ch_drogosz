@@ -12,3 +12,5 @@
 *.synctex.gz
 *.ttt
 *.bib.bak
+*.odg
+*.svg
